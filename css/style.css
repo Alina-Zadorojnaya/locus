@@ -80,12 +80,14 @@ body{
     width: 100%;
 }
 .desing__title{
+    margin-bottom: 50px;
+    width: 674px;
+}
+.title{
     font-weight: 800;
     font-size: 70px;
     line-height: 105px;
     color: #1C2323;
-    margin-bottom: 50px;
-    width: 674px;
 }
 .desing__text{
     font-size: 30px;
@@ -115,4 +117,52 @@ body{
 .desing__images img{
     width: 620px;
     height: 690px;
+}
+.works{
+    padding-bottom: 150px;
+}
+.works__inner{
+    text-align: center;
+}
+.works__title{
+    margin-bottom: 20px;
+}
+.works__text{
+    width: 506px;
+    font-size: 30px;
+    line-height: 45px;
+    text-align: center;
+    font-weight: normal;
+    margin: 0 auto;
+    margin-bottom: 70px;
+}
+.works__box-wrap{
+    position: relative;
+}
+.works__btn{
+    position: absolute;
+    bottom: 40px;
+    right: 435px;
+    z-index: 5;
+}
+.works__box{
+    display: flex;
+    justify-content: space-between;
+}
+.works__img{
+    width: 1063px;
+    height: 350px;
+}
+.works__item{
+    width: 549px;
+    height: 350px;
+    background-color: #CCF0E6;
+    border-radius: 0px 10px 10px 0px;
+    padding: 70px 106px 89px 115px;
+    text-align: left;
+}
+.works__item-text{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
 }
