@@ -166,3 +166,30 @@ body{
     font-size: 20px;
     line-height: 30px;
 }
+.mission{
+    margin-bottom: 120px;
+}
+.mission__inner{
+    display: flex;
+
+}
+.mission__img{
+    margin-right: 142px;
+    width: 642px;
+    height: 650px;
+}
+.mission__title{
+    width: 487px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 60px;
+    margin-bottom: 50px;
+}
+.mission__text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 45px;
+    width: 708px;
+}
