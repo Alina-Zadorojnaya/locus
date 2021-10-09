@@ -18,7 +18,7 @@
     <div class="container">
       <div class="header__inner">
         <a class="logo" href="#">
-          <svg width="159" height="53" viewBox="0 0 159 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <svg class="logo-img" width="159" height="53" viewBox="0 0 159 53" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M57.1047 14.325V39H71.6297V33.75H63.9647V14.325H57.1047ZM93.7571 29.165C93.7571 22.935 89.3121 19.12 83.4671 19.12C77.6221 19.12 73.1771 22.935 73.1771 29.165C73.1771 35.43 77.5871 39.245 83.4321 39.245C89.2771 39.245 93.7571 35.43 93.7571 29.165ZM80.1771 29.165C80.1771 26.365 81.7171 25.07 83.4671 25.07C85.2171 25.07 86.7921 26.365 86.7921 29.165C86.7921 32 85.1821 33.295 83.4321 33.295C81.6471 33.295 80.1771 32 80.1771 29.165ZM95.4281 29.165C95.4281 35.43 99.5231 39.245 105.368 39.245C110.338 39.245 113.978 36.34 114.958 31.475H107.678C107.293 32.7 106.523 33.4 105.228 33.4C103.548 33.4 102.428 32 102.428 29.165C102.428 26.365 103.548 24.965 105.228 24.965C106.523 24.965 107.293 25.7 107.678 26.89H114.958C113.978 21.955 110.338 19.12 105.368 19.12C99.5231 19.12 95.4281 22.935 95.4281 29.165ZM137.898 19.365H131.003V29.9C131.003 32.175 129.743 33.505 127.748 33.505C125.788 33.505 124.493 32.175 124.493 29.9V19.365H117.668V30.775C117.668 35.955 120.503 39.175 125.053 39.175C127.818 39.175 129.883 37.88 131.003 36.2V39H137.898V19.365ZM158.322 33.225C158.287 25.77 147.822 28.01 147.822 25.21C147.822 24.475 148.417 24.02 149.537 24.02C151.007 24.02 151.882 24.755 152.092 25.98H158.287C157.832 22.095 155.032 19.12 149.677 19.12C144.357 19.12 141.522 21.955 141.522 25.385C141.522 32.595 151.952 30.25 151.952 33.12C151.952 33.82 151.287 34.38 150.132 34.38C148.697 34.38 147.612 33.68 147.437 32.385H140.787C141.067 36.305 144.707 39.245 150.167 39.245C155.242 39.245 158.322 36.655 158.322 33.225Z" fill="#58A9A5"/>
             <path d="M4 28V49H25" stroke="#58A9A5" stroke-width="8" stroke-linecap="round"/>
             <path d="M41 28V49H20" stroke="#58A9A5" stroke-width="8" stroke-linecap="round"/>
@@ -40,12 +40,19 @@
             <a class="menu__link" href="#">About Us</a>
           </li>
         </ul>
+        <div class="mobil-btn">
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
         <button class="menu__btn">
           Sign Up
         </button>
       </div>
     </div>
   </header>
+
+ 
   <section class="desing">
     <div class="container">
       <div class="desing__inner">
@@ -71,6 +78,7 @@
       </div>
     </div>
   </section>
+  
   <section class="works">
     <div class="container">
       <div class="works__inner">
@@ -105,6 +113,7 @@
       </div>
     </div>
   </section>
+ 
   <section class="mission">
     <div class="container">
       <div class="mission__inner">
@@ -126,17 +135,19 @@
       </div>
     </div>
   </section>
+ 
   <section class="project">
     <div class="container">
       <div class="project__inner">
         <h2 class="project__title title">Our project</h2>
         <p class="project__subtitle">
           Introducing our first official project
-          <svg width="135" height="21" viewBox="0 0 135 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <span class="project-line">
+            <svg width="135" height="21" viewBox="0 0 135 21" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M0 3H135" stroke="#58A9A5" stroke-width="5"/>
             <path d="M0 18H135" stroke="#58A9A5" stroke-width="5"/>
             </svg>
-            
+          </span>
         </p>
         <div class="project__items">
 
@@ -149,7 +160,7 @@
               om for . Night Watc works beautifully in a wi-
               de gamut of arrangements.
             </p>
-            <img src="images/item-1.png" alt="">
+            <img class="project-img" src="images/item-1.png" alt="">
           </div>
           <div class="project__item">
             <img class="project-img"  src="images/item-2.png" alt="">
@@ -171,13 +182,14 @@
               om for . Night Watc works beautifully in a wi-
               de gamut of arrangements.
             </p>
-            <img src="images/item-3.png" alt="">
+            <img class="project-img" src="images/item-3.png" alt="">
           </div>
 
         </div>
       </div>
     </div>
   </section>
+
 <section class="response">
   <div class="container">
     <div class="response__inner">
@@ -199,6 +211,7 @@
       <div class="response__box">
         <img class="response__image" src="images/respense-1.png" alt="">
         <div class="response__box-item">
+          <div class="response__box-wrapper">
           <div class="response__info">
             <div class="response__info-item">
               105
@@ -221,11 +234,16 @@
           </p>
           <a class="response__link" href="#"> - Roscoe</a>
           <img class="response-img" src="images/kavichka.svg" alt="">
+
+        </div>
+
+
         </div>
       </div>
     </div>
   </div>
 </section>
+
 <section class="contact-us">
   <div class="container">
     <div class="contact-us__inner">
@@ -236,16 +254,18 @@
         <p class="contact-us__text">
           Have any questions? Want help
           before getting started?
-   
-            <svg width="135" height="21" viewBox="0 0 135 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <span class="contact-us__line">
+             <svg width="135" height="21" viewBox="0 0 135 21" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M0 3.34766H135" stroke="#58A9A5" stroke-width="5"/>
               <path d="M0 18.3477H135" stroke="#58A9A5" stroke-width="5"/>
               </svg>
+          </span>
+           
          
         </p>
       </div>
       <div class="contact-us__form">
-        <form action="">
+        <form class="form-box" action="">
           <ul class="form__list">
             <li class="form__item">
               <label for="name">Full name</label>
@@ -265,7 +285,7 @@
     </div>
   </div>
 </section>
-  
+
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
